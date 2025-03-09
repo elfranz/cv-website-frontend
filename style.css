@@ -436,6 +436,9 @@ article .icon {
   padding: 1rem 2rem;
   width: 50vh;
   height: 25vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
   border: none;
   border-radius: 2rem;
   cursor: pointer;

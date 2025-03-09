@@ -100,4 +100,10 @@
   .text-container {
     text-align: justify;
   }
+
+  #grass-btn {
+    font-size: 1.5rem; /* Slightly smaller text for mobile */
+    padding: 1.5rem 3rem;
+    max-width: 250px; /* Adjust max width for smaller screens */
+  }
 }
