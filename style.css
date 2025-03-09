@@ -414,6 +414,54 @@ article .icon {
   height: 2.5rem;
 }
 
+/* TOUCH GRASS SECTION */
+#touch-grass {
+  /* background: linear-gradient(to bottom, #4CAF50, #45a049); */
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+}
+
+#touch-grass .title {
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+#grass-btn {
+  background: url('./assets/grass.jpg') no-repeat center center;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  width: 50vh;
+  height: 25vh;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#grass-btn:hover {
+  background-color: #1B5E20;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#grass-btn:active {
+  transform: translateY(1px);
+}
+
+#count {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  display: inline-block;
+  min-width: 40px;
+}
+
 /* FOOTER SECTION */
 
 footer {
